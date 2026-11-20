@@ -55,7 +55,7 @@ Vocabulary gồm **214 ký tự** (chữ không dấu, chữ tiếng Việt có 
 
 Yêu cầu: tài khoản Google, Google Colab (GPU T4 miễn phí là đủ). Không cần cài gì trên máy cá nhân.
 
-1. Tải file `CRNN_OCR_HoanChinh_GiaiDoan1-7.ipynb` lên Colab (File → Upload notebook).
+1. Tải file `CRNN_OCR_HoanChinh.ipynb` lên Colab (File → Upload notebook).
 2. Chọn **Runtime → Change runtime type → T4 GPU**.
 3. Ở **Cell 1.3**, đặt `MODE`:
    - `"small"`: chạy thử (2.000 / 400 / 400 ảnh train / val / test), 40 epoch.
@@ -229,9 +229,3 @@ MyDrive/OCR_CRNN/
 - Dataset tham khảo: IIIT5K, MJSynth
 
 Các mô hình PARSeq, TrOCR, VietOCR chỉ để tham khảo kiến trúc. Dự án này **không** dùng kết quả benchmark của chúng làm kết quả của mình.
-````
-````
-
-Mình dùng khối bốn dấu backtick bên ngoài vì README chứa các khối code ba dấu backtick bên trong. Bạn chỉ cần sao chép phần nằm giữa, bỏ dòng ````markdown ở đầu và dòng ```` ở cuối.
-
-Khi huấn luyện xong, bạn nhớ điền bảng ở mục "Kết quả" bằng số thật từ Cell 6.2 và cập nhật mục "Trạng thái kiểm chứng".
